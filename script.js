@@ -3,7 +3,7 @@ const INPUT_PASSWORD = document.getElementById('password');
 const BUTTON_LOGIN = document.getElementById('btn-login');
 
 function login() {
-  BUTTON_LOGIN.addEventListener('click', function () {
+  BUTTON_LOGIN.addEventListener('click',() => {
     if (INPUT_EMAIL.value === 'tryber@teste.com' && INPUT_PASSWORD.value === '123456') {
       window.alert('Olá, Tryber!');
     } else {

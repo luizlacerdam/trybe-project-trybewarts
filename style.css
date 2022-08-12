@@ -1,5 +1,5 @@
 body {
-  margin: 0px;
+  margin: 0;
 }
 
 header {
@@ -25,7 +25,7 @@ header button {
   width: 25%;
   background-color: darkblue;
   color: white;
-  font-weight: bold;
+  font-weight: 700;
   border-radius: 10px;
   padding: 5px;
   margin: 5px;
@@ -39,12 +39,12 @@ header button {
 main {
   display: flex;
   width: 100%;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 #evaluation-form {
   display: flex;
-  width: 50%;
+  width: 675px;
   flex-direction: column;
   align-items: center;
 }
@@ -68,12 +68,12 @@ aside {
 }
 
 .inputs {
-  width: 47%;
+  width: 46%;
   border-radius: 10px;
   padding: 5px;
   margin: 5px;
-  border: 1px solid #ddd;
-  font-weight: bold;
+  border: 1px solid rgb(221, 221, 221);
+  font-weight: 700;
 }
 
 #section-select {
@@ -87,10 +87,10 @@ aside {
   border-radius: 10px;
   padding: 5px;
   margin: 5px;
-  border: 1px solid #ddd;
+  border: 1px solid rgb(221, 221, 221);
   font-weight: bold;
 }
 
 #trybewarts-forms-logo {
-  width: 50%;
+  height: 500px;
 }
