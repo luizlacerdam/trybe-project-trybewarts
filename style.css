@@ -100,3 +100,16 @@ aside {
   width: 50%;
   flex-direction: column;
 }
+
+#section-content {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+}
+
+hr {
+  height: 2px;
+  width: 100%;
+  background-color: gray;
+  border: 0;
+}
