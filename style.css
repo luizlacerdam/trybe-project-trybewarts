@@ -94,3 +94,9 @@ aside {
 #trybewarts-forms-logo {
   height: 500px;
 }
+
+#section-families {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+}
