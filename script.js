@@ -3,6 +3,8 @@ const INPUT_PASSWORD = document.getElementById('password');
 const BUTTON_LOGIN = document.getElementById('btn-login');
 const BUTTON_SUBMIT = document.getElementById('submit-btn');
 const SUBMIT_CHECKBOX = document.getElementById('agreement');
+const COMMENT = document.getElementById('textarea');
+const COUNTER = document.getElementById('counter');
 
 function login() {
   BUTTON_LOGIN.addEventListener('click', () => {
@@ -21,4 +23,8 @@ SUBMIT_CHECKBOX.addEventListener('change', () => {
   } else {
     BUTTON_SUBMIT.disabled = true;
   }
+});
+
+COMMENT.addEventListener('keyup', () => {
+  COUNTER.innerText = 500 - COMMENT.value.length;
 });
