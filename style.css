@@ -122,9 +122,13 @@ aside {
   margin-right: 7px;
 }
 
-hr {
-  height: 2px;
+#section-comment {
+  display: flex;
   width: 100%;
-  background-color: gray;
-  border: 0;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+textarea {
+  height: 125px;
 }
