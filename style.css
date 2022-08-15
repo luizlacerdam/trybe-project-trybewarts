@@ -154,3 +154,16 @@ footer {
   margin-bottom: 20px;
   align-self: center;
 }
+
+#form-data {
+  display: none;
+  width: 100%;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.user-info {
+  width: inherit;
+  max-width: 675px;
+  margin-top: 5px;
+}
